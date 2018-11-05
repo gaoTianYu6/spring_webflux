@@ -30,7 +30,7 @@ public class controllerWebFlux {
         return Mono.just("hello word");
     }
     /**
-     * 模拟返回全部对象
+     * 1模拟返回全部对象
      * 模拟查询全部用户
      */
     @GetMapping("/testTwo")
